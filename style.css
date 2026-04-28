@@ -1,0 +1,121 @@
+.screen {
+    background-color: #121212;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1080px;
+    min-height: 2299px;
+    position: relative;
+  }
+  
+  .screen .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    height: 2299px;
+    aspect-ratio: 0.47;
+  }
+  
+  .screen .rectangle {
+    top: 994px;
+    width: 1068px;
+    height: 1151px;
+    background-color: #121212;
+    position: absolute;
+    left: 0;
+  }
+  
+  .screen .view {
+    top: 1038px;
+    width: 992px;
+    display: flex;
+    background-color: #333335;
+    border-radius: 45px;
+    position: absolute;
+    left: 44px;
+    height: 155px;
+  }
+  
+  .screen .text-wrapper {
+    margin-top: 52px;
+    height: 96px;
+    margin-left: 46px;
+    color: #787d83;
+    font-size: 38px;
+    width: 799px;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .frame {
+    position: absolute;
+    top: 1235px;
+    left: -4px;
+    width: 1080px;
+    height: 910px;
+    display: flex;
+  }
+  
+  .screen .img {
+    width: 1076px;
+    height: 910px;
+    margin-left: 4px;
+    aspect-ratio: 0.97;
+  }
+  
+  .screen .div {
+    top: 1935px;
+    width: 1570px;
+    position: absolute;
+    left: 44px;
+    height: 155px;
+  }
+  
+  .screen .rectangle-2 {
+    top: 0;
+    width: 992px;
+    height: 155px;
+    background-color: #fedd2c;
+    border-radius: 45px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .screen .text-wrapper-2 {
+    position: absolute;
+    top: 56px;
+    left: 45px;
+    color: #2f2f2f;
+    font-size: 38px;
+    width: 799px;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .text-wrapper-3 {
+    position: absolute;
+    top: 52px;
+    left: 771px;
+    color: #2f2f2f;
+    font-size: 43px;
+    width: 799px;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .image-photoroom {
+    position: absolute;
+    top: 6px;
+    left: 676px;
+    width: 128px;
+    height: 128px;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  
