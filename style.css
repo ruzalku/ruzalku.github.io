@@ -35,6 +35,12 @@
     left: 44px;
     height: 155px;
   }
+
+  .screen .optimize-link {
+    align-items: flex-start;
+    cursor: pointer;
+    text-decoration: none;
+  }
   
   .screen .text-wrapper {
     margin-top: 52px;
